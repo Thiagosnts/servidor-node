@@ -1,6 +1,6 @@
 # Servidor Node js
 
-Projeto que exemplica funcionamento de um servidor Node js.
+Projeto que exemplifica funcionamento de um servidor Node js.
 
 ## 🚀 Começando
 
