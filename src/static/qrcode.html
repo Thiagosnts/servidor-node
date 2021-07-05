@@ -1,0 +1,50 @@
+<html style="
+    background-color: aquamarine;
+"><head></head><body style="
+    text-align: center;
+    vertical-align: middle;
+"><div style="
+"><img id="qrcode" src="https://197298744561-eai-vcmais-bucket.s3.amazonaws.com/qrcode-payment/PIXOUT/56129554000148/23a23758-2cb6-4419-8982-31c5e61d9c5f.png" style="
+    margin-bottom: auto;
+    padding: 0;
+    border: solid 1px grey;
+    background: white;
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 50%);
+"></div>
+    <h4 style="
+    font-size: 20px;
+">Codigo Pedido:</h4>
+
+<h4 id="id" style="
+    font-size: 20px;
+    color: blue;
+">2c20fef1-3e34-4232-aed0-e7505bdf32e2</h4>
+
+    
+
+
+
+<script>
+
+    window.onload = function () { 
+    
+    pagina=window.location.href
+    itens=pagina.split("?")[1].split("&")
+
+    url=itens[0].replace("url=","")
+    id=itens[1].replace("id=","")
+  
+    
+    console.log(url+" "+id)
+    document.getElementById("qrcode").src=url
+    document.getElementById("id").innerHTML=id
+
+
+    
+
+     } 
+     </script>
+ 
+ 
+
+</body></html>
