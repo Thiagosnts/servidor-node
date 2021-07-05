@@ -1,0 +1,15 @@
+{
+  "name": "servidor-node",
+  "version": "2.0.0",
+  "description": "Projeto servidor Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Santos",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  }
+}
