@@ -1,6 +1,6 @@
-# Título do projeto
+# Servidor Node js
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto que exemplica funcionamento de um servidor Node js.
 
 ## 🚀 Começando
 
